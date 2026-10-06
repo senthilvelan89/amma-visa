@@ -35,6 +35,7 @@ Earlier note of a sister in Hosur, Tamil Nadu is **superseded**. Do not treat th
 - Current **600** visa **expires June 2028**.
 - At the time of lodging **143** and **870**, Uma will be **outside Australia**.
 - Exact 600 grant/expiry dates, visa grant numbers, and travel-history dates: **TBD**.
+- While on **600**, plan stays against the rolling **12 months in any 18 months** rule (condition **8558**, if it is on the visa — check grant letter / VEVO). Use skill `aus-12-in-18-stay` and `data/uma-aus-trips.json`. Arrival and departure both count. A short trip overseas does not reset the clock. After a continuous 12-month stay, expect **6 months outside** before return. This cap is separate from visa expiry and does not apply once **870** is granted.
 
 ## Intended pathway
 
@@ -80,7 +81,7 @@ Working constraint to confirm against current Home Affairs rules when drafting g
 ## Open items to capture later
 
 - Passport number, issue date, expiry, place of issue (Uma).
-- Exact 600 visa grant/expiry dates, grant numbers, travel history.
+- Exact 600 visa grant/expiry dates, grant numbers, travel history (add each arrive/depart to `data/uma-aus-trips.json` and run the 12-in-18 skill).
 - Relationship evidence pack (birth certificate linking Uma and Senthil; any name variations; marriage/widow evidence).
 - Names, addresses, ID of Uma’s two brothers in Chennai (India contact).
 - Rental property details, investment types/amounts, bank statements.
